@@ -1,0 +1,68 @@
+.cards-wrapper {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card {
+    width: 22.5rem;
+    min-height: 28.7rem;
+    min-width: 320px;
+    overflow: hidden;
+}
+
+.card-img {
+    margin-bottom: 1rem;
+    min-width: 320px;
+}
+
+.card-tags {
+    color: #EB0028;
+    margin: 0;
+    font-size: 0.81rem;
+    line-height: 0.81rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    line-height: 1.88rem;
+    font-weight: 700;
+}
+
+.meta-info {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.card span {
+    font-size: 0.75rem;
+    margin-right: .3rem;
+}
+
+.card-autor {
+    font-weight: 700;
+}
+
+.dot {
+    margin-right: .3rem;
+}
+
+.card-date,
+.card-views {
+    color: #9B9B9B;
+}
+
+.card-description {
+    color: #9B9B9B;
+    font-size: 0.88rem;
+    line-height: 1.25rem;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

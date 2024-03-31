@@ -23,7 +23,7 @@ function Cards({ news_card, searchTitle }) {
             <div className="cards-wrapper">
                 {filteredCards.map(card =>
                     <div className="card" onClick={() => cardClick(card)}>
-                        <img className="card-img" src={card.img} alt="" />
+                        <img className="card-img" src={card.img} srcSet={`${card.img_2x} 2x`} alt="news_img" />
                         <p className="card-tags">{card.tags}</p>
                         <h1 className="card-title">{card.title}</h1>
                         <div className="meta-info">
@@ -43,5 +43,3 @@ function Cards({ news_card, searchTitle }) {
 }
 
 export default Cards
-
-// 

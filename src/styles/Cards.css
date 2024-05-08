@@ -1,8 +1,17 @@
+button:hover {
+    cursor: pointer;
+}
+
+
 .cards-wrapper {
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.cards-wrapper:hover {
+    cursor: pointer;
 }
 
 .card {

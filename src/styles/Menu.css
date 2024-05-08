@@ -197,7 +197,9 @@ a {
         visibility: visible;
     }
 
-    .search-modal {
+    div.search-modal {
+        box-sizing: border-box;
+        display: flex;
         position: absolute;
         top: 5.1rem;
         left: 0;
@@ -206,6 +208,7 @@ a {
         border: none;
         border-radius: 0;
         border-bottom: solid #E9E9E9 1px;
+        padding-inline: 10px;
     }
 
 }

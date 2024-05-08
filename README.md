@@ -1,4 +1,4 @@
-# News
+# News [demo](https://663b817ced9f7c5a5c5320c9--monumental-bombolone-901953.netlify.app)
 
 # For running the project please do:
 
@@ -16,6 +16,5 @@ npm run dev
 * To read the news in more detail, click on the card
 
 
-# Demo
-[https://663b7863291e6f3f9bc43e3a--resplendent-douhua-52ecc0.netlify.app/#](https://663b7863291e6f3f9bc43e3a--resplendent-douhua-52ecc0.netlify.app/#)
+
 
